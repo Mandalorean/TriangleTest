@@ -40,9 +40,7 @@ class TestTriangles(unittest.TestCase):
         from triangle import classifyTriangle
         self.assertEqual(classifyTriangle(-3,8,6), 'Scalene Triangle', ' valid values for triangle')
 
-    def testTriangleE(self):
-        from triangle import classifyTriangle
-        self.assertEqual(classifyTriangle(one,8,6), 'Scalene Triangle', ' valid values for triangle')
+    
 
 
 
@@ -66,50 +64,3 @@ if __name__ == '__main__':
 
 
 
-"""import unittest
-
-
-class MyTestCase(unittest.TestCase):
-    def test_scalene_right(self):
-        from triangle import classifyTriangle
-
-        self.assertEqual(classifyTriangle(3,4,5),"Scalene right triangle")
-
-
-    def test_scalene(self):
-        from triangle import classifyTriangle
-
-        self.assertEqual(classifyTriangle(3,4,6),"Scalene triangle")
-
-
-    def test_isoceles(self):
-        from triangle import classifyTriangle
-
-        self.assertEqual(classifyTriangle(4,4,5),"Isosceles triangle")
-
-
-    def test_equilateral(self):
-        from triangle import classifyTriangle
-
-        self.assertEqual(classifyTriangle(5,5,5),"Equilateral triangle")
-
-
-    def test_false_triangle(self):
-        from triangle import classifyTriangle
-
-        self.assertEqual(classifyTriangle(0,4,5),"Invalid triangle")
-
-    def test_triangle(self):
-        from triangle import classifyTriangle
-
-        self.assertEqual(classifyTriangle(4,0,5),"Invalid triangle")
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    unittest.main()
-"""
