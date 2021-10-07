@@ -1,2 +1,2 @@
 # TriangleTest
-[![build status of master](https://travis-ci.org/tsmith567/Triangle567.svg?branch=master)](https://travis-ci.org/Mandalorean/TriangleTest)
+[![build status of master](https://travis-ci.org/Mandalorean/TriangleTest.svg?branch=master)](https://travis-ci.org/Mandalorean/TriangleTest)
