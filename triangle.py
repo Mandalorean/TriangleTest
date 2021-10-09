@@ -40,4 +40,4 @@ def classify_triangle(side_a,side_b,side_c):
 
 if __name__=='__main__':
     # examples of running the code
-    print(f'{classify_triangle(4,5,3)}')
+    print('{}'.format(classifyTriangle(1,2,3)))
